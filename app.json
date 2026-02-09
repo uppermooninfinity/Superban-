@@ -14,12 +14,12 @@
   "env": {
     "API_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "",
+      "value": "34594672",
       "required": false
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "",
+      "value": "a008e5018b8662e872be5a8670db4840",
       "required": false
     },
     "BOT_TOKEN": {
@@ -29,12 +29,12 @@
     },
     "MONGO_DB_URI": {
       "description": "Get a MongoDB URL from https://cloud.mongodb.com.",
-      "value": "",
+      "value": "mongodb+srv://knight4563:knight4563@cluster0.a5br0se.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
       "required": false
     },
     "OWNER_ID": {
       "description": "The user ID of the person you want to designate as the bot owner.",
-      "value": "",
+      "value": "7651303468",
       "required": false
     },
     "HEROKU_API_KEY": {
@@ -49,7 +49,7 @@
     },
     "LOGGER_ID": {
       "description": "The ID of your log group or channel. For groups, add the bot and promote it as admin. For channels, ensure the bot is an admin too.",
-      "value": "",
+      "value": "-1003228624224",
       "required": false
     }
   },
