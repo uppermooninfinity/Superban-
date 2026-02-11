@@ -32,19 +32,25 @@ async def start_pm(client, message: Message):
 
     bot_name = client.me.first_name
     text = (
-        f"<b>нєу {user.first_name}.\n"
-        f"๏ ɪᴍ {bot_name} — ᴀ ᴜꜱᴇʀʙᴏᴛ ᴀɴᴅ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.\n"
-        f"๏ ᴛᴀᴘ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ꜱᴛᴀʀᴛᴇᴅ ᴏʀ ꜱᴇᴇ ᴄᴏᴍᴍᴀɴᴅꜱ.</b>"
+    f"<b><i><blockquote>✦ ʜєʟʟσ {user.first_name} ηɪᴄє ᴛσ ϻєєᴛ ʏσᴜ 🚫🔥\n\n"
+    f"⊚ ᴛʜɪꜱ ɪꜱ {bot_name} ⚖️\n\n"
+    f"➻ ᴧ ᴘʀєϻɪᴜϻ ᴅєꜱɪɢηєᴅ ꜱᴜᴘєʀʙᴧη ϻᴧηᴧɢєϻєηᴛ ʙσᴛ ꜰσʀ ᴛєʟєɢʀᴧϻ ɢʀσᴜᴘꜱ ᴧηᴅ ᴄʜᴧηηєʟꜱ.\n\n"
+    f"✦ ϻᴧηᴧɢє ʀᴜʟє ʙʀєᴧᴋєʀꜱ\n"
+    f"✦ ʙʟσᴄᴋ ηꜱꜰᴡ ꜱᴘᴧϻϻєʀꜱ\n"
+    f"✦ ᴍᴧɪηᴛᴧɪη ᴄʟєᴧη ᴧηᴅ ꜱᴧꜰє ᴄσϻϻᴜηɪᴛʏ\n\n"
+    f"➻ ᴏηє ᴄσϻϻᴧηᴅ • ɪηꜱᴛᴧηᴛ ᴧᴄᴛɪση • ᴘσᴡєʀꜰᴜʟ ϻσᴅєʀᴧᴛɪση ⚡\n\n"
+    f"» ɪꜰ ʏσᴜ ηєєᴅ ᴧηʏ ʜєʟᴘ, ᴛᴧᴘ ᴛʜє ʜєʟᴘ ʙᴜᴛᴛση.\n\n</i></b></blockquote>"
+    f"•── ⋅ ⋅ ────── ⋅᯽⋅ ────── ⋅ ⋅ ⋅──•"
     )
 
     keyboard = InlineKeyboardMarkup([
-        [InlineKeyboardButton("➕ Add Me To Group ➕", url=f"https://t.me/{client.me.username}?startgroup=true")],
+        [InlineKeyboardButton("✦ ᴧᴅᴅ ϻє ᴛσ ɢʀσᴜᴘ ➕👥✨", url=f"https://t.me/{client.me.username}?startgroup=true")],
         [
-            InlineKeyboardButton("📢 Logs", url=SUPPORT_CHANNEL),
-            InlineKeyboardButton("🧑‍💻 Owner", url=f"https://t.me/{OWNER_ID}")
+            InlineKeyboardButton("✦ ʟσɢꜱ 📜✨", url=STORAGE_CHANNEL_ID),
+            InlineKeyboardButton(" ✦ σᴡηєʀ 👑✨ ", url=f"https://t.me/{OWNER_ID}")
         ],
-        [InlineKeyboardButton("🛠 Help & Commands", callback_data="help_menu")],
-        [InlineKeyboardButton("Team Superban ♥️", url=SUPPORT_CHAT)]
+        [InlineKeyboardButton("✦ ʜєʟᴘ ᴧηᴅ ᴄσϻϻᴧηᴅꜱ 🛠️✨", callback_data="help_menu")],
+        [InlineKeyboardButton("✦ ᴛєᴧϻ ꜱᴜᴘєʀʙᴧη 🚫🔥", url=SUPPORT_CHAT)]
     ])
 
     await message.reply(
