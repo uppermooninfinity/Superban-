@@ -7,21 +7,21 @@ from pyrogram import filters
 load_dotenv()
 
 #--------------------------------
-API_ID = 20948356
-API_HASH = "6b202043d2b3c4db3f4ebefb06f2df12"
-BOT_TOKEN = "7964387907:AAEkcp4huGvQ7u0gBwkOgyRt6NUWeDWS31g"
-MONGO_DB_URI = "mongodb+srv://Combobot:Combobot@combobot.4jbtg.mongodb.net/?retryWrites=true&w=majority&appName=Combobot"
+API_ID = 39679517
+API_HASH = "aed61e5ff8c711895f8b0c99e51c16cc"
+BOT_TOKEN = ""
+MONGO_DB_URI = "mongodb+srv://knight4563:knight4563@cluster0.a5br0se.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 #--------------------------------
-SUPERBAN_CHAT_ID = -1002819331022
-STORAGE_CHANNEL_ID = -1002846500795
-AUTHORS = [7337748194, 7394132959]
+SUPERBAN_CHAT_ID = -1003228624224
+STORAGE_CHANNEL_ID = -1003852280111
+AUTHORS = [7651303468]
 
 #--------------------------------
-String_client_1 = "BQGPvYcAhUkfHf38wIvJ_KxeXhQ7McM6oBCteXPzd5DsP3qKHq4gV7WKwg-5r7j1X1Kgtzr6kVKBLRO8JW4VLXIlnKM-31qCIuC05o-rNuDnz3rXWHwPMRGMMrUlEisOAhSg6kp5-9Qa9bcAoIE3OQj3WpOTTNR57diTMojazxUc7MN2zBs8MXrQ5os9FzvKfh9Sg6TvRvvHBjLLMQn6CR8dtXXPyJI3mrTMy7GOIlUKk1eYHep_U_2jnpHFLmNEWOSdbh7F33q4wcnVVbAbf4C859f_lLOF4RgYVHdQqYoglM2tBzJs8aArcHaw5KVRu_0BqwTOSJi-y2WzVCgcXSYVA36yMgAAAAHR1tKRAA"
-String_client_2 = "BQAAC1MAA7e7ICp5bdyubr5EQAJRV7G2kOgTBH_Ko7kE146ngnhK_uiVoZ85wuSHU7EBJR5C_4nawxobjmcYkF8gd76DcNuftG5rHhvFQ2yvqiYdD2N6KVG1xywsqdDv-6Ob3huy_BCnyO0XUQZAHd3q1rc6DJFTz9vfdC4baWxxwNe2RuRFR7RKVs-Nk5Mqm9aMuJ8xNvoFqyJ59SShIDcOa35AzFk5_JI_M5vOktdESWkhdgZbpz2MQoMsZdHkImSEcwuOX410RXDyM60bJYVyk01mE1xI3Mi9cvZCVo8sbx5VmqTBzBT1FSKA4kBfnlSYdoo1qJoJq6-3bLenT4KAVvZMvgAAAABsFRQ_AA"
+String_client_1 = ""
+String_client_2 = ""
 String_client_3 = ""
-Mustjoin = "TeamScott"
+Mustjoin = "snowy_hometown"
 
 #--------------------------------
 SUPERBAN_REQUEST_TEMPLATE = """ᴀᴘᴘʀᴏᴠᴇ sᴜᴘᴇʀʙᴀɴ ꜰᴏʀ ᴜꜱᴇʀ :
@@ -37,7 +37,7 @@ SUPERBAN_REQUEST_TEMPLATE = """ᴀᴘᴘʀᴏᴠᴇ sᴜᴘᴇʀʙᴀɴ ꜰᴏʀ
 ᴅᴀᴛᴇ & ᴛɪᴍᴇ : {ind_time}
 ᴜɴɪᴠᴇʀꜱᴀʟ ᴛɪᴍᴇ : {utc_time}
 
-ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @rScottbot"""
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @dark_musictm"""
 
 SUPERBAN_REQUEST_RESPONSE = """ʏᴏᴜʀ sᴜᴘᴇʀʙᴀɴ ʀᴇQᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴇɴᴅᴇᴅ ᴛᴏ ᴛᴇᴀᴍ
 
@@ -51,8 +51,8 @@ SUPERBAN_REQUEST_RESPONSE = """ʏᴏᴜʀ sᴜᴘᴇʀʙᴀɴ ʀᴇQᴜᴇꜱᴛ
 ᴛʜᴀɴᴋꜜs ꜰᴏʀ ʏᴏᴜʀ sᴜᴘᴇʀʙᴀɴ ʀᴇQᴜᴇꜱᴛ
 
 ᴜɴɪᴠᴇʀꜱᴀʟ ᴛɪᴍᴇ : {utc_time}
-ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @TeamScott
-ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @rScottbot"""
+ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @snowy_hometown
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @dark_musictm"""
 
 SUPERBAN_APPROVED_TEMPLATE = """ʏᴏᴜʀ sᴜᴘᴇʀʙᴀɴ ʀᴇQᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ᴀᴘᴘʀᴏᴠᴇᴅ, ɴᴏᴡ ꜱᴛᴀʀᴛɪɴɢ sᴜᴘᴇʀʙᴀɴ.....
 
@@ -63,7 +63,7 @@ SUPERBAN_APPROVED_TEMPLATE = """ʏᴏᴜʀ sᴜᴘᴇʀʙᴀɴ ʀᴇQᴜᴇꜱ�
 ᴀᴘᴘʀᴏᴠᴇᴅ ʙʏ ᴀᴜᴛʜᴏʀ : {approval_author}
 
 ᴜɴɪᴠᴇʀꜱᴀʟ ᴛɪᴍᴇ : {utc_time}
-ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @rScottbot"""
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @dark_musictm"""
 
 SUPERBAN_DECLINED_TEMPLATE = """ʏᴏᴜʀ sᴜᴘᴇʀʙᴀɴ ʀᴇQᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ᴅᴇᴄʟɪɴᴇᴅ
 
@@ -74,7 +74,7 @@ SUPERBAN_DECLINED_TEMPLATE = """ʏᴏᴜʀ sᴜᴘᴇʀʙᴀɴ ʀᴇQᴜᴇꜱ�
 ᴅᴇᴄʟɪɴᴇᴅ ʙʏ ᴀᴜᴛʜᴏʀ : {approval_author}
 
 ᴜɴɪᴠᴇʀꜱᴀʟ ᴛɪᴍᴇ : {utc_time}
-ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @rScottbot"""
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @dark_musictm"""
 
 SUPERBAN_COMPLETE_TEMPLATE = """sᴜᴘᴇʀʙᴀɴ ɪꜱ ᴄᴏᴍᴘʟᴇᴛᴇᴅ.
 
@@ -90,8 +90,8 @@ SUPERBAN_COMPLETE_TEMPLATE = """sᴜᴘᴇʀʙᴀɴ ɪꜱ ᴄᴏᴍᴘʟᴇᴛ�
 ᴜɴɪᴠᴇʀꜱᴀʟ ᴛɪᴍᴇ : {utc_time}
 ᴛɪᴍᴇ ᴛᴀᴋᴇɴ : {time_taken}
 
-ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @TeamScott
-ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @rScottbot"""
+ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @snowy_hometown
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @dark_musictm"""
 
 #--------------------------------
 SUPERUNBAN_REQUEST_TEMPLATE = """ᴀᴘᴘʀᴏᴠᴇ sᴜᴘᴇʀᴜɴʙᴀɴ ꜰᴏʀ ᴜꜱᴇʀ :
@@ -107,7 +107,7 @@ SUPERUNBAN_REQUEST_TEMPLATE = """ᴀᴘᴘʀᴏᴠᴇ sᴜᴘᴇʀᴜɴʙᴀɴ �
 ᴅᴀᴛᴇ & ᴛɪᴍᴇ : {ind_time}
 ᴜɴɪᴠᴇʀꜱᴀʟ ᴛɪᴍᴇ : {utc_time}
 
-ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @rScottbot"""
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @dark_musictm"""
 
 SUPERUNBAN_REQUEST_RESPONSE = """ʏᴏᴜʀ sᴜᴘᴇʀᴜɴʙᴀɴ ʀᴇQᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴇɴᴅᴇᴅ ᴛᴏ ᴛᴇᴀᴍ
 
@@ -121,8 +121,8 @@ SUPERUNBAN_REQUEST_RESPONSE = """ʏᴏᴜʀ sᴜᴘᴇʀᴜɴʙᴀɴ ʀᴇQᴜ�
 ᴛʜᴀɴᴋꜜs ꜰᴏʀ ʏᴏᴜʀ sᴜᴘᴇʀᴜɴʙᴀɴ ʀᴇQᴜᴇꜱᴛ
 
 ᴜɴɪᴠᴇʀꜱᴀʟ ᴛɪᴍᴇ : {utc_time}
-ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @TeamScott
-ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @rScottbot"""
+ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @snowy_hometown
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @dark_musictm"""
 
 SUPERUNBAN_APPROVED_TEMPLATE = """ʏᴏᴜʀ sᴜᴘᴇʀᴜɴʙᴀɴ ʀᴇQᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ᴀᴘᴘʀᴏᴠᴇᴅ, ɴᴏᴡ ꜱᴛᴀʀᴛɪɴɢ sᴜᴘᴇʀᴜɴʙᴀɴ.....
 
@@ -133,7 +133,7 @@ SUPERUNBAN_APPROVED_TEMPLATE = """ʏᴏᴜʀ sᴜᴘᴇʀᴜɴʙᴀɴ ʀᴇQᴜ�
 ᴀᴘᴘʀᴏᴠᴇᴅ ʙʏ ᴀᴜᴛʜᴏʀ : {approval_author}
 
 ᴜɴɪᴠᴇʀꜱᴀʟ ᴛɪᴍᴇ : {utc_time}
-ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @rScottbot"""
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @dark_musictm"""
 
 SUPERUNBAN_DECLINED_TEMPLATE = """ʏᴏᴜʀ sᴜᴘᴇʀᴜɴʙᴀɴ ʀᴇQᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ᴅᴇᴄʟɪɴᴇᴅ
 
@@ -144,7 +144,7 @@ SUPERUNBAN_DECLINED_TEMPLATE = """ʏᴏᴜʀ sᴜᴘᴇʀᴜɴʙᴀɴ ʀᴇQᴜ�
 ᴅᴇᴄʟɪɴᴇᴅ ʙʏ ᴀᴜᴛʜᴏʀ : {approval_author}
 
 ᴜɴɪᴠᴇʀꜱᴀʟ ᴛɪᴍᴇ : {utc_time}
-ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @rScottbot"""
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @dark_musictm"""
 
 SUPERUNBAN_COMPLETE_TEMPLATE = """sᴜᴘᴇʀᴜɴʙᴀɴ ɪꜱ ᴄᴏᴍᴘʟᴇᴛᴇᴅ.
 
@@ -160,17 +160,17 @@ SUPERUNBAN_COMPLETE_TEMPLATE = """sᴜᴘᴇʀᴜɴʙᴀɴ ɪꜱ ᴄᴏᴍᴘʟ�
 ᴜɴɪᴠᴇʀꜱᴀʟ ᴛɪᴍᴇ : {utc_time}
 ᴛɪᴍᴇ ᴛᴀᴋᴇɴ : {time_taken}
 
-ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @TeamScott
-ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @rScottbot"""
+ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @snowy_hometown
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @dark_musictm"""
 #--------------------------------
 
-START_VIDEO = "https://i.ibb.co/nsyp67FS/Img2url-bot.jpg"
-HELP_MENU_VIDEO = "https://i.ibb.co/Z64Z3yCR/Img2url-bot.jpg"
+START_VIDEO = "https://files.catbox.moe/dvij1v.mp4"
+HELP_MENU_VIDEO = "https://files.catbox.moe/dvij1v.mp4"
 
 #--------------------------------
-LOGGER_ID = -1002059639505
-STATS_VIDEO = "https://i.ibb.co/tMyDNvS2/Img2url-bot.jpg"
-OWNER_ID = 7394132959
+LOGGER_ID = -1003228624224
+STATS_VIDEO = "https://files.catbox.moe/dvij1v.mp4"
+OWNER_ID = 7651303468
 
 #--------------------------------
 CLIENT_CHAT_DATA = [
